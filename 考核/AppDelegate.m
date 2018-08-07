@@ -7,20 +7,25 @@
 //
 
 #import "AppDelegate.h"
-
-@interface AppDelegate ()
-
+#import "ViewController.h"
+@interface AppDelegate ()<UITextFieldDelegate>
+@property (nonatomic, strong)UITextField *firstTextField;
+@property (nonatomic, strong)UITextField *secondTextField;
+@property (nonatomic, copy)NSString *str1;
+@property (nonatomic, copy)NSString *str2;
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    ViewController *loginViewController = [[ViewController alloc] init];
+    self.window.rootViewController = loginViewController;
+
     // Override point for customization after application launch.
     return YES;
 }
-
-
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

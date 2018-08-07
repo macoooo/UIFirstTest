@@ -15,6 +15,22 @@
 		9707C7CE2118662B00F3709D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9707C7CD2118662B00F3709D /* main.m */; };
 		9707C7D82118662B00F3709D /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9707C7D72118662B00F3709D /* __Tests.m */; };
 		9707C7E32118662B00F3709D /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9707C7E22118662B00F3709D /* __UITests.m */; };
+		9707C7F12118698200F3709D /* user_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 9707C7F02118698200F3709D /* user_img.png */; };
+		9707C7F32118698600F3709D /* pass_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 9707C7F22118698600F3709D /* pass_img.png */; };
+		9707C7F6211869D200F3709D /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9707C7F5211869D200F3709D /* RegisterViewController.m */; };
+		9707C7F92118738B00F3709D /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9707C7F82118738B00F3709D /* MineViewController.m */; };
+		9707C7FC2118739700F3709D /* YourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9707C7FB2118739700F3709D /* YourViewController.m */; };
+		9707C7FE2118753800F3709D /* my_button_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 9707C7FD2118753800F3709D /* my_button_normal.png */; };
+		9707C8002118753D00F3709D /* my_button_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 9707C7FF2118753D00F3709D /* my_button_pressed.png */; };
+		9707C8032118756400F3709D /* FirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9707C8022118756400F3709D /* FirstTableViewCell.m */; };
+		9707C80521187A4300F3709D /* works_head.png in Resources */ = {isa = PBXBuildFile; fileRef = 9707C80421187A4300F3709D /* works_head.png */; };
+		9707C80721187A6700F3709D /* 唯美2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9707C80621187A6700F3709D /* 唯美2.jpg */; };
+		9707C80A21187AAA00F3709D /* SecondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9707C80921187AAA00F3709D /* SecondTableViewCell.m */; };
+		9707C80C21187ED000F3709D /* share小明.png in Resources */ = {isa = PBXBuildFile; fileRef = 9707C80B21187ED000F3709D /* share小明.png */; };
+		9707C80E21187F8C00F3709D /* xxxx.png in Resources */ = {isa = PBXBuildFile; fileRef = 9707C80D21187F8C00F3709D /* xxxx.png */; };
+		9707C8102118822300F3709D /* 爱心.png in Resources */ = {isa = PBXBuildFile; fileRef = 9707C80F2118822200F3709D /* 爱心.png */; };
+		9707C8122118822700F3709D /* 真心.png in Resources */ = {isa = PBXBuildFile; fileRef = 9707C8112118822700F3709D /* 真心.png */; };
+		973E7CDE2119223E00CE7F46 /* 箭头左.png in Resources */ = {isa = PBXBuildFile; fileRef = 973E7CDD2119223E00CE7F46 /* 箭头左.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +67,27 @@
 		9707C7DE2118662B00F3709D /* 考核UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "考核UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9707C7E22118662B00F3709D /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		9707C7E42118662B00F3709D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9707C7F02118698200F3709D /* user_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user_img.png; path = "../素材/user_img.png"; sourceTree = "<group>"; };
+		9707C7F22118698600F3709D /* pass_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pass_img.png; path = "../素材/pass_img.png"; sourceTree = "<group>"; };
+		9707C7F4211869D200F3709D /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		9707C7F5211869D200F3709D /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		9707C7F72118738B00F3709D /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		9707C7F82118738B00F3709D /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		9707C7FA2118739700F3709D /* YourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YourViewController.h; sourceTree = "<group>"; };
+		9707C7FB2118739700F3709D /* YourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YourViewController.m; sourceTree = "<group>"; };
+		9707C7FD2118753800F3709D /* my_button_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = my_button_normal.png; path = "../素材/my_button_normal.png"; sourceTree = "<group>"; };
+		9707C7FF2118753D00F3709D /* my_button_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = my_button_pressed.png; path = "../素材/my_button_pressed.png"; sourceTree = "<group>"; };
+		9707C8012118756400F3709D /* FirstTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstTableViewCell.h; sourceTree = "<group>"; };
+		9707C8022118756400F3709D /* FirstTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewCell.m; sourceTree = "<group>"; };
+		9707C80421187A4300F3709D /* works_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = works_head.png; path = "../素材/works_head.png"; sourceTree = "<group>"; };
+		9707C80621187A6700F3709D /* 唯美2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "唯美2.jpg"; path = "../素材/唯美2.jpg"; sourceTree = "<group>"; };
+		9707C80821187AAA00F3709D /* SecondTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondTableViewCell.h; sourceTree = "<group>"; };
+		9707C80921187AAA00F3709D /* SecondTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewCell.m; sourceTree = "<group>"; };
+		9707C80B21187ED000F3709D /* share小明.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "share小明.png"; path = "../素材/share小明.png"; sourceTree = "<group>"; };
+		9707C80D21187F8C00F3709D /* xxxx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xxxx.png; path = "../素材/xxxx.png"; sourceTree = "<group>"; };
+		9707C80F2118822200F3709D /* 爱心.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "爱心.png"; path = "../素材/爱心.png"; sourceTree = "<group>"; };
+		9707C8112118822700F3709D /* 真心.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "真心.png"; path = "../素材/真心.png"; sourceTree = "<group>"; };
+		973E7CDD2119223E00CE7F46 /* 箭头左.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "箭头左.png"; path = "../../Downloads/箭头左.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +118,17 @@
 		9707C7B22118662A00F3709D = {
 			isa = PBXGroup;
 			children = (
+				9707C7F02118698200F3709D /* user_img.png */,
+				9707C7F22118698600F3709D /* pass_img.png */,
+				9707C7FD2118753800F3709D /* my_button_normal.png */,
+				9707C7FF2118753D00F3709D /* my_button_pressed.png */,
+				9707C80421187A4300F3709D /* works_head.png */,
+				9707C80621187A6700F3709D /* 唯美2.jpg */,
+				9707C80B21187ED000F3709D /* share小明.png */,
+				9707C80D21187F8C00F3709D /* xxxx.png */,
+				9707C80F2118822200F3709D /* 爱心.png */,
+				9707C8112118822700F3709D /* 真心.png */,
+				973E7CDD2119223E00CE7F46 /* 箭头左.png */,
 				9707C7BD2118662A00F3709D /* 考核 */,
 				9707C7D62118662B00F3709D /* 考核Tests */,
 				9707C7E12118662B00F3709D /* 考核UITests */,
@@ -103,8 +151,18 @@
 			children = (
 				9707C7BE2118662A00F3709D /* AppDelegate.h */,
 				9707C7BF2118662A00F3709D /* AppDelegate.m */,
+				9707C7F4211869D200F3709D /* RegisterViewController.h */,
+				9707C7F5211869D200F3709D /* RegisterViewController.m */,
 				9707C7C12118662A00F3709D /* ViewController.h */,
 				9707C7C22118662A00F3709D /* ViewController.m */,
+				9707C8012118756400F3709D /* FirstTableViewCell.h */,
+				9707C8022118756400F3709D /* FirstTableViewCell.m */,
+				9707C7F72118738B00F3709D /* MineViewController.h */,
+				9707C7F82118738B00F3709D /* MineViewController.m */,
+				9707C80821187AAA00F3709D /* SecondTableViewCell.h */,
+				9707C80921187AAA00F3709D /* SecondTableViewCell.m */,
+				9707C7FA2118739700F3709D /* YourViewController.h */,
+				9707C7FB2118739700F3709D /* YourViewController.m */,
 				9707C7C42118662A00F3709D /* Main.storyboard */,
 				9707C7C72118662B00F3709D /* Assets.xcassets */,
 				9707C7C92118662B00F3709D /* LaunchScreen.storyboard */,
@@ -235,9 +293,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9707C8122118822700F3709D /* 真心.png in Resources */,
+				9707C80521187A4300F3709D /* works_head.png in Resources */,
+				9707C8102118822300F3709D /* 爱心.png in Resources */,
+				9707C7FE2118753800F3709D /* my_button_normal.png in Resources */,
 				9707C7CB2118662B00F3709D /* LaunchScreen.storyboard in Resources */,
 				9707C7C82118662B00F3709D /* Assets.xcassets in Resources */,
+				9707C7F12118698200F3709D /* user_img.png in Resources */,
+				973E7CDE2119223E00CE7F46 /* 箭头左.png in Resources */,
+				9707C7F32118698600F3709D /* pass_img.png in Resources */,
+				9707C80E21187F8C00F3709D /* xxxx.png in Resources */,
+				9707C80C21187ED000F3709D /* share小明.png in Resources */,
+				9707C80721187A6700F3709D /* 唯美2.jpg in Resources */,
 				9707C7C62118662A00F3709D /* Main.storyboard in Resources */,
+				9707C8002118753D00F3709D /* my_button_pressed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +333,12 @@
 			files = (
 				9707C7C32118662A00F3709D /* ViewController.m in Sources */,
 				9707C7CE2118662B00F3709D /* main.m in Sources */,
+				9707C7F92118738B00F3709D /* MineViewController.m in Sources */,
 				9707C7C02118662A00F3709D /* AppDelegate.m in Sources */,
+				9707C7F6211869D200F3709D /* RegisterViewController.m in Sources */,
+				9707C8032118756400F3709D /* FirstTableViewCell.m in Sources */,
+				9707C7FC2118739700F3709D /* YourViewController.m in Sources */,
+				9707C80A21187AAA00F3709D /* SecondTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

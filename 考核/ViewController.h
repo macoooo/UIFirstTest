@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property (nonatomic ,copy) NSString *str1;
+@property (nonatomic ,copy) NSString *str2;
 
 @end
 
